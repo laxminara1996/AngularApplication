@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myapp';
+  title:String = 'myapp';
+  message:String="welcome to the world";
+
+  method():void{
+    alert('inside the method');
+  }
 }
